@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>后台管理的界面</title>
+		<link rel="stylesheet" type="text/css" href="../res/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../res/css/css/index.css"/>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+	</head>
+	<body>
+		<!--顶部栏-->
+		<nav class="navbar navbar-expand navbar-dark bg-primary fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">BOOTSTRAP</a>
+				<i class="iconfont index-control fa fa-arrow-circle-right mt-4"></i>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								用户操作
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">个人中心</a>
+							<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">退出</a>
+							</div>
+						</li>
+					</ul>
+				 </div>
+			</div>
+		</nav>
+		
+		<!--中间区域内容-->
+		<ul class="left-box">
+			<li class="active" data-url="page_index.html">
+				<i class="fa fa-home"></i>首页
+			</li>
+			<li data-url="page_user.html">
+				<i class="fa fa-user"></i>用户中心
+			</li>
+			<li data-url="page_search.html">
+				<i class="fa fa-search"></i>数据查询
+			<li data-url="page_data.html">
+				<i class="fa fa-bar-chart"></i>数据面板
+			</li>
+			<li data-url="page_tip.html">
+				<i class="fa fa-bell-o"></i>提醒事项<span class="ml-3 badge badge-pill badge-warning">4</span>
+			</li>
+		</ul>
+		<div class="right-box">
+			<iframe src="page_index.html"></iframe>
+		</div>
+		
+		<script type="text/javascript" src="../res/js/plug/jquery-3.4.1.slim.min.js"></script>
+		<script type="text/javascript" src="../res/js/plug/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="../res/js/work/index.js"></script>	
+	</body>
+</html>
